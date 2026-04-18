@@ -1,6 +1,6 @@
 class StackDemo{
 public static void main(String args[]){
-ArrayStack stack=new ArrayStack();
+ArrayStackInt stack=new ArrayStackInt();
 stack.push(10);
 stack.push(10);
 stack.push(20);
