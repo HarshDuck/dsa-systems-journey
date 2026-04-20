@@ -13,7 +13,7 @@ stack[top]=val;
 public int pop(){
 if(top==-1){
 System.out.println("Stack Underflow");
-return 0;
+return -1;
 }
 int value=stack[top];
 top--;
@@ -22,7 +22,7 @@ return value;
 public int peek(){
 if(top==-1){
 System.out.println("Stack Underflow");
-return 0;
+return -1;
 }
 return stack[top];
 }
